@@ -1,0 +1,155 @@
+{
+  "pdf": "files/Divya_Prasanth_Paraman_CV.pdf",
+  "sections": [
+    {
+      "heading": "Education",
+      "items": [
+        {
+          "when": "Jan 2026 – Present",
+          "what": "PhD, Intelligent Systems Engineering",
+          "detail": "Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington. Advisor: Prof. Katy Börner. GPA 3.823/4"
+        },
+        {
+          "when": "Aug 2023 – May 2025",
+          "what": "M.S., Data Science",
+          "detail": "Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington. GPA 3.9/4"
+        },
+        {
+          "when": "Jun 2015 – May 2019",
+          "what": "B.E., Electronics and Communication Engineering",
+          "detail": "Kumaraguru College of Technology, India. CGPA 8.7/10"
+        }
+      ]
+    },
+    {
+      "heading": "Teaching",
+      "items": [
+        {
+          "when": "Spring 2026",
+          "what": "Associate Instructor, Information Visualization",
+          "detail": "Indiana University Bloomington. Faculty: Katy Börner. Class size: 75",
+          "bullets": [
+            "Delivered a guest lecture introducing AI-assisted visualization systems, mixed-initiative visual analytics, and human–AI collaboration in visualization design.",
+            "Mentored five student project teams, providing project management support and helping translate course concepts into applied visualization projects.",
+            "Graded student work, helped develop rubrics, and contributed to framing course assignments."
+          ]
+        },
+        {
+          "when": "Fall 2025",
+          "what": "Teaching Assistant, Information Visualization",
+          "detail": "Indiana University Bloomington. Faculty: Andreas Bueckle. Class size: 75",
+          "bullets": [
+            "Mentored six student project teams, providing project management support and helping translate course concepts into applied visualization projects.",
+            "Graded student work, helped develop rubrics, and contributed to framing course assignments."
+          ]
+        },
+        {
+          "when": "Spring 2025",
+          "what": "Teaching Assistant, Information Visualization",
+          "detail": "Indiana University Bloomington. Faculty: Katy Börner. Class size: 130",
+          "bullets": [
+            "Developed a Python notebook using LLMs that let 130 students, including non-programmers, generate, refine, and critique data visualizations.",
+            "Mentored eight student project teams, providing project management support and helping translate course concepts into applied visualization projects.",
+            "Graded student work, helped develop rubrics, and contributed to framing course assignments."
+          ]
+        },
+        {
+          "when": "Fall 2024",
+          "what": "Teaching Assistant, Advanced Database Concepts",
+          "detail": "Indiana University Bloomington. Faculty: Chenghong Wang. Class size: 74",
+          "bullets": [
+            "Created and graded course assessments, including assignments, quizzes, and exams.",
+            "Held weekly office hours to give one-on-one support on database concepts and assignments."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Professional Experience",
+      "items": [
+        {
+          "when": "Sep 2021 – Jul 2023",
+          "what": "Analytics Engineer",
+          "detail": "Bounteous, India",
+          "bullets": [
+            "Developed machine learning models to predict customer behavior from intent, profile similarity, and engagement across CRM systems.",
+            "Worked with business leaders to formulate hypotheses and built a business impact framework of metrics and methods for assessing how predictive models affect pipeline and revenue.",
+            "Gathered, cleaned, analyzed, and interpreted CRM data to produce business impact reports and dashboards."
+          ]
+        },
+        {
+          "when": "Jun 2019 – Jan 2021",
+          "what": "Software Engineer",
+          "detail": "Soliton Technologies, India",
+          "bullets": [
+            "Developed desktop GUI applications that help users set up and understand semiconductor devices."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Internships",
+      "items": [
+        {
+          "when": "Sep 2024 – Dec 2024",
+          "what": "Data Insights Intern",
+          "detail": "AAMC, Bloomington, IN",
+          "bullets": [
+            "Developed LLM-powered solutions to analyze Higher Logic engagement data and created visualizations to support AAMC's content curation strategy."
+          ]
+        },
+        {
+          "when": "Aug 2018 – May 2019",
+          "what": "Software Engineer Intern",
+          "detail": "Soliton Technologies, India",
+          "bullets": [
+            "Built an Angular web repository for Soliton's R&D team that lets engineers across teams share and reuse software modules.",
+            "Trained in object-oriented programming, data structures, Agile methods, and software development life cycle practices."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Academic Projects",
+      "items": [
+        {
+          "when": "Spring 2024",
+          "what": "A Survey of Graph Neural Network Based Movie Recommender Systems",
+          "detail": "Tech Lead, team of three",
+          "bullets": [
+            "Reviewed graph-based recommender algorithms (e.g., LightGCN, GCMC), focusing on how they mitigate data sparsity in traditional collaborative filtering.",
+            "Analyzed limitations in information propagation and update mechanisms, noting a bias toward aggregated information over user- and item-specific representations."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Honors and Awards",
+      "items": [
+        { "when": "May 2024", "what": "Faculty Assistance in Data Science Scholarship", "detail": "Indiana University Bloomington" },
+        { "when": "2016, 2017, 2018", "what": "Mahatma Gandhi Scholarship Award for Academic Excellence (three times)", "detail": "Kumaraguru College of Technology, India" }
+      ]
+    },
+    {
+      "heading": "Certifications",
+      "items": [
+        { "when": "Data", "what": "dbt Fundamentals; Databricks Certified Associate Developer for Apache Spark 3.0; Snowflake SnowPro Core; Astronomer Apache Airflow Fundamentals; Neo4j Certified Professional" },
+        { "when": "Analytics & ML", "what": "Microsoft Power BI Data Analyst Associate; Google TensorFlow Developer Certificate" },
+        { "when": "Other", "what": "Transactional Analysis Proficiency, Institute of Development Transactional Analysis" }
+      ]
+    },
+    {
+      "heading": "Community",
+      "items": [
+        {
+          "when": "Jun 2017 – Nov 2017",
+          "what": "Education Support Volunteer",
+          "detail": "Make a Difference",
+          "bullets": [
+            "Tutored high school students from economically disadvantaged backgrounds in mathematics twice a week at Sevasharam Home, Coimbatore."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Divya Prasanth Paraman",
+  "photo": "images/me.jpeg",
+  "affiliation": [
+    "PhD Student, Intelligent Systems Engineering",
+    "Luddy School of Informatics, Computing, and Engineering",
+    "Indiana University Bloomington"
+  ],
+  "email": "dparaman@iu.edu",
+  "links": [
+    {
+      "label": "CV (PDF)",
+      "url": "files/Divya_Prasanth_Paraman_CV.pdf"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=HGCpD-0AAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/divya-prasanth-paraman/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/PrasanthParaman"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026",
+      "text": "Poster *Tracing Communicative Motive in LLM-Generated Visualizations* accepted at IEEE VIS 2026."
+    },
+    {
+      "date": "Spring 2026",
+      "text": "Gave a guest lecture on AI-assisted visualization systems and human–AI collaboration in Information Visualization at IU."
+    },
+    {
+      "date": "Jan 2026",
+      "text": "Started my PhD in Intelligent Systems Engineering with [Prof. Katy Börner](https://cns-iu.github.io/katy/)."
+    },
+    {
+      "date": "May 2025",
+      "text": "Graduated with an M.S. in Data Science from Indiana University Bloomington."
+    }
+  ],
+  "updated": "October 2026"
+}

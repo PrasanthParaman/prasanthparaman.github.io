@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divya Prasanth Paraman</title>
+<meta name="description" content="PhD student at Indiana University researching human-centered agentic AI for data visualization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!--
+  This file is the layout only. You normally do not need to edit it.
+  Your content lives in:
+    data/profile.json       name, photo, affiliation, links, news
+    content/about.md        About text
+    content/research.md     Research intro and themes
+    data/publications.json  Publications
+    data/cv.json            CV summary
+    data/posts.json         List of essays
+    writing/<slug>.md       One file per essay
+-->
+<div class="wrap">
+  <aside class="id">
+    <div class="portrait" id="portrait">your photo<br>(4:5)</div>
+    <h1 id="name">Your Name</h1>
+    <p class="role" id="role">PhD Student</p>
+    <ul id="links"></ul>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#writing">Writing</a>
+      <a href="#cv">CV</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="about" data-view>
+      <h2>About</h2>
+      <div class="md" id="about-md"><p class="empty">Loading…</p></div>
+      <h3>News</h3>
+      <ul class="news" id="news"></ul>
+    </section>
+
+    <section id="research" data-view hidden>
+      <h2>Research</h2>
+      <div class="md themes" id="research-md"><p class="empty">Loading…</p></div>
+      <figure>
+        <svg viewBox="0 0 600 210" role="img" aria-labelledby="figt">
+          <title id="figt">Mixed-initiative analysis loop between analyst and agent, mediated by the visualization.</title>
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" style="fill:var(--muted)"/></marker>
+          </defs>
+          <rect x="10" y="70" width="130" height="64" rx="3" style="fill:var(--bg);stroke:var(--fg)"/>
+          <text x="75" y="98" text-anchor="middle" font-size="14" font-weight="600" style="fill:var(--fg)">Analyst</text>
+          <text x="75" y="118" text-anchor="middle" font-size="11.5" style="fill:var(--muted)">intent · judgment</text>
+          <rect x="225" y="55" width="150" height="94" rx="3" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+          <text x="300" y="80" text-anchor="middle" font-size="14" font-weight="600" style="fill:var(--accent)">Visualization</text>
+          <g style="fill:var(--accent)">
+            <rect x="250" y="118" width="14" height="20"/><rect x="270" y="106" width="14" height="32"/><rect x="290" y="96" width="14" height="42"/><rect x="310" y="111" width="14" height="27"/><rect x="330" y="101" width="14" height="37"/>
+          </g>
+          <rect x="460" y="70" width="130" height="64" rx="3" style="fill:var(--bg);stroke:var(--fg)"/>
+          <text x="525" y="98" text-anchor="middle" font-size="14" font-weight="600" style="fill:var(--fg)">Agent</text>
+          <text x="525" y="118" text-anchor="middle" font-size="11.5" style="fill:var(--muted)">plan · transform · draw</text>
+          <path d="M140 84 L222 84" style="stroke:var(--muted);fill:none" marker-end="url(#ah)"/>
+          <path d="M378 84 L457 84" style="stroke:var(--muted);fill:none" marker-end="url(#ah)"/>
+          <path d="M457 120 L378 120" style="stroke:var(--muted);fill:none" marker-end="url(#ah)"/>
+          <path d="M222 120 L140 120" style="stroke:var(--muted);fill:none" marker-end="url(#ah)"/>
+          <text x="181" y="74" text-anchor="middle" font-size="11" style="fill:var(--muted)">ask, steer</text>
+          <text x="418" y="74" text-anchor="middle" font-size="11" style="fill:var(--muted)">constraints</text>
+          <text x="418" y="138" text-anchor="middle" font-size="11" style="fill:var(--muted)">proposals</text>
+          <text x="181" y="138" text-anchor="middle" font-size="11" style="fill:var(--muted)">evidence</text>
+          <path d="M75 134 C75 195, 525 195, 525 134" style="stroke:var(--mark);fill:none;stroke-dasharray:4 4"/>
+          <text x="300" y="195" text-anchor="middle" font-size="11.5" style="fill:var(--mark)">provenance: every agent step stays inspectable and reversible</text>
+        </svg>
+        <figcaption><b>Figure 1.</b> The interaction model behind my systems. The analyst and agent work through a shared visual representation, and the agent's steps are kept as provenance the analyst can audit or undo.</figcaption>
+      </figure>
+    </section>
+
+    <section id="publications" data-view hidden>
+      <h2>Publications</h2>
+      <div id="pubs"><p class="empty">Loading…</p></div>
+    </section>
+
+    <section id="writing" data-view hidden>
+      <h2>Writing</h2>
+      <p>Essays and notes outside my research.</p>
+      <ul class="posts" id="postlist"></ul>
+    </section>
+
+    <section id="post" data-view hidden>
+      <article id="postbody"></article>
+    </section>
+
+    <section id="cv" data-view hidden>
+      <h2>Curriculum Vitae</h2>
+      <div id="cvbody"><p class="empty">Loading…</p></div>
+    </section>
+
+    <footer id="footer"></footer>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
