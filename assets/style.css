@@ -73,6 +73,7 @@ svg text{font-family:var(--sans)}
 .pub .t{font-weight:600}
 .pub .a{color:var(--muted);font-size:15.5px}
 .pub .a u{text-decoration:none;color:var(--fg);border-bottom:1px solid var(--muted)}
+.pub .a.eq{color:var(--fg)}
 .pub .v{font-style:italic;font-size:15.5px}
 .badges{font-family:var(--sans);font-size:12px;display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .badges span,.badges a{border:1px solid var(--rule);padding:1px 7px;border-radius:2px;color:var(--muted)}
