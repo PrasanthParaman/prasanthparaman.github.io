@@ -38,10 +38,10 @@
     const me = (profile.name || "").trim();
     $("pubs").innerHTML = Object.keys(byYear).sort((a, b) => b - a).map((y) =>
       `<div class="pubyear">${esc(y)}</div><ol class="pubs">` + byYear[y].map((p) => {
-        const authors = (p.authors || []).map((a) => (a === me ? `<u>${esc(a)}</u>` : esc(a))).join(", ");
+        const authors = (p.authors || []).map((a) => (a === me && !p.equal_contribution ? `<u>${esc(a)}</u>` : esc(a))).join(", ");
         const links = Object.entries(p.links || {}).map(([k, v]) => `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join("");
         const award = p.award ? `<span class="award">${esc(p.award)}</span>` : "";
-        return `<li class="pub"><div class="t">${esc(p.title)}</div><div class="a">${authors}</div><div class="v">${esc(p.venue)}</div>${links || award ? `<div class="badges">${links}${award}</div>` : ""}</li>`;
+        return `<li class="pub"><div class="t">${esc(p.title)}</div><div class="a${p.equal_contribution ? " eq" : ""}">${authors}</div><div class="v">${esc(p.venue)}</div>${links || award ? `<div class="badges">${links}${award}</div>` : ""}</li>`;
       }).join("") + `</ol>`).join("");
   }).catch(() => fail($("pubs"), "publications.json"));
 
